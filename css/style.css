@@ -3,3 +3,10 @@
     display: flex;
     flex-direction: column;
 }
+
+/* App-nav-bar */
+
+.app-nav-bar {
+    width: 65px;
+    background-image: url(../img/sidebar-bg.png);
+}

@@ -9,6 +9,12 @@
     display: flex;
     flex-direction: column;
 }
+/* App-header */
+
+.app-header {
+    height: 70px;
+    background-color: aqua;
+}
 
 /* App-nav-bar */
 

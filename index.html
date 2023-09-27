@@ -12,18 +12,66 @@
 <body>
     <div class="app">
         <!--Start app-header-->
-        <header class="app-header">
-            <div class="container">
-                <div class="row">
+        <header class="app-header d-flex align-items-center bg-light">
+            <div class="container-fluid">
+                <div class="row bg-white align-items-center">
                     <div class="col-auto">
-                        Logo
+                       <a href="#">
+                            <figure class="m-0">
+                                <img class="img-fluid logo d-none d-lg-block" src="./img/logo.svg" alt="">
+                            </figure>
+                            <figure class="m-0">
+                                <img class="img-fluid logo-mobile d-lg-none" src="./img/mobile-logo.png" alt="">
+                            </figure>
+                       </a>
                     </div>
-                    <div class="col-auto flex-grow-1">
-                        input search
+                    <div class="col-auto flex-grow-1 my-1 my-lg-0 ">
+                        <form action="" class="d-flex">
+                            <div class="input-group">
+                                <span class="input-group-text bg-body-secondary" id="basic-addon1">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <input 
+                                    type="text" 
+                                    class="form-control border-start-0 bg-body-secondary" 
+                                    placeholder="Search" 
+                                    aria-label="Username" 
+                                    aria-describedby="basic-addon1">
+                              </div>
+                        </form>
                     </div>
+
+                    
                     <div class="col-auto">
-                        nav menu
-                    </div>
+                       <ul class="nav align-items-baseline">
+                            <li class="nav-item">
+                                <a class="nav-link d-none d-lg-block" href="#">
+                                    <i class="fa-solid fa-list-ul"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-none d-lg-block" href="#">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-none d-lg-block" href="#">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <div class="dropdown">
+                                    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bell" style="color: #fda34e;"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    </ul>
+                              </div>
+                            </li>
+                       </ul>
                 </div>
             </div>
         </header>
@@ -33,7 +81,7 @@
         <div class="app-content d-flex flex-grow-1">
             <!--Start app-nav-bar-->
             <div class="app-nav-bar d-flex">
-                <ul class="nav flex-column">
+                <ul class="nav flex-column align-items-center flex-grow-1 align-items-lg-start">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">
                             <i class="fa-solid fa-house"></i>

@@ -66,3 +66,7 @@
 .badge-stato.failed {
     background-color: rgba(220,53,69,255);
 }
+
+.image-table {
+    width: 30px;
+}

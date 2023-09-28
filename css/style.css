@@ -75,3 +75,7 @@
 .table-col-rol {
     display: none;
 }
+
+.table-col-state {
+    text-align: center;
+}

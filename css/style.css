@@ -35,11 +35,13 @@
 .app-nav-bar {
     width: 65px;
     background-image: url(../img/sidebar-bg.png);
+    background-color: rgba(5,30,52,255);
 }
 
 .badge-list {
     list-style: none;
 }
+
 
 /* Prossime-classi */
 

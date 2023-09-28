@@ -70,3 +70,8 @@
 .image-table {
     width: 30px;
 }
+
+.table-col-date,
+.table-col-rol {
+    display: none;
+}

@@ -47,6 +47,11 @@
     list-style: none;
 }
 
+/* main-contente_headr */
+
+.main-content__header span.badge {
+    background-color: rgba(22,91,186,255);
+}
 
 /* Prossime-classi */
 

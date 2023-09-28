@@ -53,6 +53,16 @@
     list-style: none;
 }
 
-.row [class^="col"] {
-    border: 2px solid greenyellow;
+/* Prossime-classi */
+
+.badge-stato.done {
+    background-color: rgba(25,135,84,255);
+}
+
+.badge-stato.process {
+    background-color: rgba(255,193,7,255);
+}
+
+.badge-stato.failed {
+    background-color: rgba(220,53,69,255);
 }

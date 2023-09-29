@@ -12,6 +12,10 @@
     color: var(--yellow-bell);
 }
 
+.bg-yellow-bell {
+    background-color: var(--yellow-bell);
+}
+
 .grow-custom-1 {
     flex-grow: 1;
 }

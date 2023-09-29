@@ -64,9 +64,16 @@
     color: white;
 }
 
+
+.app-nav-bar a > i {
+   width: 15px;
+}
+
 .badge-list {
     list-style: none;
 }
+
+
 
 /* main-contente_headr */
 

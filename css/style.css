@@ -9,6 +9,7 @@
     --width-offcanvas-50: 50%;
     --width-offcanvas-75: 75%;
     --width-offcanvas-100: 100%;
+    --width-icon: 30px;
 }
 
 .yellow-bell {
@@ -92,7 +93,11 @@
     list-style: none;
 }
 
-
+.nav-icon {
+    display: inline-block;
+    width: var(--width-icon);
+    text-align: center;
+}
 
 /* main-contente_headr */
 

@@ -31,6 +31,15 @@
 .app-main-content {
     overflow: auto;
 }
+
+.hover-bg-grey:hover {
+    background-color: rgba(241, 245, 248, 0.514);
+}
+
+.hover-bg-grey:hover > * {
+    color: currentColor;
+}
+
 /* App-header */
 
 .app-header {

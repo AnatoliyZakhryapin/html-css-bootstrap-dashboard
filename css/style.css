@@ -6,6 +6,9 @@
 
 :root {
     --yellow-bell: #fda34e;
+    --width-offcanvas-50: 50%;
+    --width-offcanvas-75: 75%;
+    --width-offcanvas-100: 100%;
 }
 
 .yellow-bell {
@@ -66,6 +69,10 @@
 
 .logo-mobile {
     max-width:30px;
+}
+
+.main-content__header .offcanvas-width {
+    width: var(--width-offcanvas-100);
 }
 
 /* App-nav-bar */

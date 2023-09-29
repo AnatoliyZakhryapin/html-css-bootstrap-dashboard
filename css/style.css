@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --yellow-bell: #fda34e;
+}
+
+.yellow-bell {
+    color: var(--yellow-bell);
+}
+
 .grow-custom-1 {
     flex-grow: 1;
 }
@@ -67,11 +75,6 @@
 
 .app-nav-bar a {
     color: white;
-}
-
-
-.app-nav-bar a > i {
-   width: 15px;
 }
 
 .badge-list {

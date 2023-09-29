@@ -36,6 +36,11 @@
     background-color: rgba(241, 245, 248, 0.514);
 }
 
+.hover-bg-grey:hover td {
+    background-color: rgba(241, 245, 248, 0.514);
+}
+
+
 .hover-bg-grey:hover > * {
     color: currentColor;
 }
